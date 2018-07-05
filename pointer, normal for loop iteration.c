@@ -1,4 +1,4 @@
-//iterate through array pointer/normal way
+//iterate through array using pointer/for loop
 
 #include <stdio.h>
 #include <string.h>
@@ -15,7 +15,7 @@
 // }
 
 
-//normal way
+//normal way using a for loop 
 int main(){
   int a[] = {1,2,3,4,5,6};
   int len = sizeof(a)/sizeof(int);
